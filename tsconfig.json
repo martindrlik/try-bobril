@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "reactNamespace": "b"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/bobril-build/**/*.*",
+        "!./node_modules/typescript/**/*.*"
+    ],
+    "files": [
+        "node_modules/bobril/jsx.d.ts",
+        "src/app.ts",
+        "src/components/datepicker.ts"
+    ],
+    "exclude": [],
+    "compileOnSave": false
+}

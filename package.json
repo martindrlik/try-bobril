@@ -1,0 +1,16 @@
+{
+  "name": "try-bobril",
+  "version": "0.0.0",
+  "description": "",
+  "typescript": {
+    "main": "src/app.ts"
+  },
+  "bobril": {
+    "title": "Try Bobril"
+  },
+  "author": "mdr",
+  "license": "",
+  "dependencies": {
+    "bobril": "^4.20.0"
+  }
+}
