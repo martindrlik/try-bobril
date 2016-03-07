@@ -1,5 +1,11 @@
 import * as b from 'bobril';
 
+// PLEASE READ
+// Please excuse my ignorance in case I used something which is considered as
+// bad. I need proper knowledge to follow KISS, DRY or whatever is considered
+// as requirement to master bobril (and typescript).
+// Learning in progress :-)
+
 export interface IData {
 	value?: Date;
 	onChange(value: Date);
