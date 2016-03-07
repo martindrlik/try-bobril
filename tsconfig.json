@@ -21,9 +21,9 @@
         "!./node_modules/typescript/**/*.*"
     ],
     "files": [
-        "node_modules/bobril/jsx.d.ts",
-        "src/app.ts",
-        "src/components/datepicker.ts"
+        "example.ts",
+        "index.ts",
+        "node_modules/bobril/jsx.d.ts"
     ],
     "exclude": [],
     "compileOnSave": false
